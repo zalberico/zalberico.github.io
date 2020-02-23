@@ -2,7 +2,7 @@ title: Zach Alberico
 email: fossuser@gmail.com
 description: Thoughts on software and work in the Bay Area
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://zalberico.com" # the base hostname & protocol for your site
+url: "http://localhost:4000" # the base hostname & protocol for your site
 twitter_username: zachalberico
 github_username:  zalberico
 
