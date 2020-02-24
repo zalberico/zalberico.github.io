@@ -19,6 +19,7 @@ Asterisk links are free to read online.
  - [Permutation City](https://www.amazon.com/Permutation-City-Novel-Greg-Egan/dp/1597805394)
  - [After Life*](https://sifter.org/~simon/AfterLife/)
  - [True Names*](http://www.scotswolf.com/TRUENAMES.pdf)
+ - [Exhalation](https://www.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888)
 
 ##### Rationality
  - [Rationality: From AI to Zombies](Rationality: From AI to Zombies)
