@@ -57,3 +57,7 @@ Asterisk links are free to read online.
 ##### Memoir
  - [Do No Harm](https://www.amazon.com/Do-No-Harm-Stories-Surgery/dp/125009013X)
  - [Small Fry](https://www.amazon.com/Small-Fry-Lisa-Brennan-Jobs/dp/0802128238)
+
+##### Podcasts
+ - [Stay Tuned with Preet](https://podcasts.apple.com/us/podcast/stay-tuned-with-preet/id1265845136)
+ - [Cafe Insider](https://cafe.com/insider/)
