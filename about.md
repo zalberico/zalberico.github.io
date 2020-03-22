@@ -22,7 +22,7 @@ Asterisk links are free to read online.
  - [Exhalation](https://www.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888)
 
 ##### Rationality
- - [Rationality: From AI to Zombies](Rationality: From AI to Zombies)
+ - [Rationality: From AI to Zombies](https://intelligence.org/rationality-ai-zombies/)
  - [Harry Potter and The Methods of Rationality*](http://www.hpmor.com/)
  - [Meditations on Moloch*](https://slatestarcodex.com/2014/07/30/meditations-on-moloch/) 
  - [The Toxoplasma Of Rage*](https://slatestarcodex.com/2014/12/17/the-toxoplasma-of-rage/)
