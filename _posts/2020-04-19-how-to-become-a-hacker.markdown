@@ -14,7 +14,7 @@ Growing up in the suburbs of Buffalo, NY can be pretty isolating - and while I w
 Sixteen years later, I thought it'd be fun to write my own version of How to Become a Hacker to supplement ESR's original: something I would have liked to have read myself at thirteen that focuses on some other aspects I would have found helpful too. A lot of posts about programming and related topics are rallying cries, trying to persuade you to adopt a specific programming language, framework, operating system, or specific way of doing things. This post does less of that and while I make some suggestions, it's a more tempered view. Its goal is to fill the niche of what I think I would have liked to have read after ESR's original post (so you should read that one first).
 
 #### There's a lot to learn.
-In the beginning I remember reading articles and books, but not understanding a lot of the jargon - this is normal. Things that at first seem incomprehensible slowly become understandable as you're exposed to more of it and dig into each thing you don't understand. It's good to just keep reading and powering through, looking things up as you don't understand them and asking questions when you can (ESR also has a good post about [how to ask good questions][How To Ask Questions The Smart Way]). 
+In the beginning I remember reading articles and books, but not understanding a lot of the jargon - this is normal. Things that at first seem incomprehensible slowly become understandable as you're exposed to more of it and dig into each thing you don't understand. It's good to just keep reading and powering through, looking things up as you don't understand them and [asking questions][Asking Questions] when you can (ESR also has a good post about [how to ask good questions][How To Ask Questions The Smart Way]). 
 
 Everyone learns something for the first time at some point and things will slowly build until you're more comfortable with the basics. I remember not understanding little details (like not knowing to enter commands in the terminal to run them, or that cd stood for 'change directory'). You pick up on these things from exposure and the more you play with them, the more you're exposed to and the more experience you'll accumulate. If you're lucky enough to live in an area that has a community of people interested in software you'll be able to learn faster.
 
@@ -110,3 +110,4 @@ I remember ESR responding to some email I sent about getting an iPod to work in 
 [Phoenix Project]: https://www.amazon.com/dp/1942788290
 [PG]: http://paulgraham.com/articles.html
 [ESR]: https://en.wikipedia.org/wiki/Eric_S._Raymond
+[Asking Questions]: https://zalberico.com/essay/2017/02/21/asking-questions.html
