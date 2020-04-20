@@ -55,6 +55,8 @@ Don't worry too much about things like Vim or Emacs or which OS you're using - y
 
 I started with trying to install Gentoo (which never actually succeeded). This troubleshooting skill was really instrumental in allowing me to get the job I have now, so if it's fun for you to play with a different OS I'd definitely encourage it, I just don't think it's a requirement. It is probably easier to learn on macOS or Linux though since most of the existing tooling targets those environments and most programmers are using one of those two.
 
+One specific tool worth mentioning is version control, specifically git. It's worth spending some time getting comfortable with the basics, but probably isn't something to focus on until after you've been programming for a bit.
+
 #### Don't research forever
 It's easy to procrastinate by 'researching' options forever before starting a project - it can be fun to read about and explore what's available and it's good to do a little of this, but you can also get stuck doing this forever. When in doubt just pick the most popular project that's been around for a while and use that one. If it's popular it probably has a decent community you can learn from and if it's been around for a while it'll probably be more stable (or at least it'll be more substantial and less likely to be abandoned).
 
@@ -71,7 +73,7 @@ There are lots of different kinds of roles other than 'software engineer'. There
 
 In each of these roles there is even more specialization depending on what products are being used and new tools that are being created to solve new problems. Computer security is also an interesting area that I don't know too much about that I think ESR is too dismissive of in his post, but it's also a hard place to start because it requires a lot of existing understanding of how things work to know how things can be broken. I remember picking up this book early on, but I didn't know enough at the time to really understand it: [Hacking: The Art of Exploitation][Hacking The Art of Exploitation]
 
-Of course there's also staring your own company and building your own role that way too as a founder.
+Of course there's also starting your own company and building your own role that way too as a founder.
 
 #### There's a lot to learn (again)
 A lifetime is a long time and a specialization isn't forever, so dive into different things - play with a lot of new things and have fun along the way.
