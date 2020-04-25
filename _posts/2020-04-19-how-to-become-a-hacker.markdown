@@ -80,7 +80,7 @@ A lifetime is a long time and a specialization isn't forever, so dive into diffe
 
 #### Bonus: Community
 
-ESR talks about joining a local Linux users group, but at least for me that was not realistic when I read his post, both because there aren't really that many of them and because I couldn't drive or really get anywhere myself that easily since I was too young to drive. There are some online communities that I find interesting now that I think I would have found interesting then too.
+ESR talks about joining a local Linux users group, but at least for me that was not realistic when I read his post, both because there aren't really that many of them and because I couldn't get anywhere myself that easily since I was too young to drive. There are some online communities that I find interesting now that I think I would have found interesting then too.
 
 **[Hacker News][Hacker News]:** Ycombinator's news site (startup incubator in the bay area). Comments can be hit or miss, but the good ones are really good and a lot of people in the industry hang out there. Paul Graham and Jessica Livingston were the founders of Ycombinator and Paul writes a lot of interesting [essays][PG]. 
 
