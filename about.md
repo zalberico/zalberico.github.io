@@ -54,6 +54,7 @@ Asterisk links are free to read online.
  - [Zero to One](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296)
  - [Hackers](https://www.amazon.com/Hackers-Computer-Revolution-Steven-Levy/dp/1449388396)
  - [The Dream Machine](https://press.stripe.com/#the-dream-machine)
+ - [Facebook: The Inside Story](https://www.amazon.com/Facebook-Inside-Story-Steven-Levy/dp/0735213151)
 
 ##### Fiction
  - [The Nix](https://www.amazon.com/Nix-Nathan-Hill/dp/1101970340)
