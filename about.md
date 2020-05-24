@@ -12,6 +12,11 @@ I like to read about interesting things people are building and I spend too much
 
 I update this site pretty infrequently when I feel like I have something to say.
 
+#### HNBlogs
+A community I started after discussing the blog discovery problem on HN.
+ - The HN post: [https://news.ycombinator.com/item?id=23287286](https://news.ycombinator.com/item?id=23287286)
+ - The subreddit: [https://www.reddit.com/r/hnblogs/](https://www.reddit.com/r/hnblogs/)
+
 #### Books and articles I've read and liked:
 Asterisk links are free to read online.
 
@@ -58,6 +63,11 @@ Asterisk links are free to read online.
  - [Do No Harm](https://www.amazon.com/Do-No-Harm-Stories-Surgery/dp/125009013X)
  - [Small Fry](https://www.amazon.com/Small-Fry-Lisa-Brennan-Jobs/dp/0802128238)
 
-##### Podcasts
- - [Stay Tuned with Preet](https://podcasts.apple.com/us/podcast/stay-tuned-with-preet/id1265845136)
+##### Podcasts and Mailing Lists
+ - [Stay Tuned with Preet*](https://podcasts.apple.com/us/podcast/stay-tuned-with-preet/id1265845136)
  - [Cafe Insider](https://cafe.com/insider/)
+ - [Stratechery*](https://stratechery.com/)
+ - [Money Stuff*](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
+
+#### Blogs
+ - [Pixel Poppers*](https://pixelpoppers.com/) - My friend's videogame analysis blog, I like this [post.](https://pixelpoppers.com/2018/05/faith-in-the-possibility-of-good-a-close-reading-of-q.u.b.e-directors-cut/)
