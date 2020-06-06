@@ -165,7 +165,7 @@ This guide assumes you're running macOS or linux on your local machine.
    ```
    $ sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/your_domain
    ```
- - Now reload the Nginx confdig:
+ - Now reload the Nginx config:
    ```
    $ sudo nginx -s reload
    ```
