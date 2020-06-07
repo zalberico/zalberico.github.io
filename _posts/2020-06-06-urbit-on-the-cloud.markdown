@@ -40,7 +40,7 @@ This guide assumes you're running macOS or linux on your local machine.
  - **Backups**: Optional (it costs a little extra, but I have it enabled for piece of mind).
 
 #### Getting your own domain
- - Your own domain will make accessing your urbit a lot easier (it'll also allow you to secure things with a let's encrypt cert).
+ - Your own domain will make accessing your urbit a lot easier (it'll also allow you to secure things with a Let's Encrypt cert).
  - Domains are relatively inexpensive and since this guide is about best practices I'm making it a required step.
  - There are a lot of domain name registrars you can use, this guide suggests [gandi.net][Gandi] because that's the one I use.
  - From there you can search for and register a domain that you like.
@@ -161,6 +161,7 @@ This guide assumes you're running macOS or linux on your local machine.
     }
    }
    ```
+   *Note*: **your_domain** should be of the form `example.com` without www or https.
  - Next we're going to create a symlink to enable this in `sites-enabled` for Nginx:
    ```
    $ sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/your_domain
@@ -184,7 +185,7 @@ This guide assumes you're running macOS or linux on your local machine.
  ```
  $ sudo certbot --nginx -d your_domain
  ```
- - You'll have to agree the TOS and then it'll run a test to verify that you control the domain you're requesting a cert for.
+ - You'll have to agree to the TOS and then it'll run a test to verify that you control the domain you're requesting a cert for.
  - Certbot will then ask if you want to redirect all traffic to HTTPS. You should select yes for this (option 2).
  - Certbot will automatically update your nginx config with the settings it needs. It'll also automatically renew before cert expiration.
  - You can now verify your site is working properly by going to `https://your_domain`, you should see a secure certificate.
