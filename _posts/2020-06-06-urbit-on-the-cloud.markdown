@@ -22,6 +22,7 @@ This guide assumes you're running macOS or linux on your local machine.
 
 #### Create a Digital Ocean droplet
  - Create an account on [Digital Ocean][Digital Ocean].
+ - Create a droplet with the following settings:
  - **Image**: Ubuntu 18.04 x64
  - **Plan**: Standard
  - **Size**: 
