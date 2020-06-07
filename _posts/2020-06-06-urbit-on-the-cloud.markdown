@@ -14,7 +14,7 @@ Most Urbit users start out running their ship locally on one machine in order to
 You can also only access your Urbit from that one machine.
 
 This guide uses Digital Ocean as the cloud provider because DO focuses on this kind of use case (individual devs running something for themselves). 
-This means prices are easy to understand and they provide good tools that are easy to use. In theory the same steps apply to other cloud providers like AWS, Gcloud, and Azure, but they're enterprise focused - so their prices and tooling are more complicated to obscure costs (they also do more than we need).
+This means prices are easy to understand and they provide good tools that are easy to use. In theory the same steps apply to other cloud providers like AWS, Google Cloud, and Azure, but they're enterprise focused - so their prices and tooling are more complicated (partly to obscure costs, but they also just do more than we need).
 
 Tlon is working on automation to make deployment to Google Cloud easier in the future, but for now Digital Ocean is a good option (and what I personally use).
 
@@ -63,7 +63,7 @@ This guide assumes you're running macOS or linux on your local machine.
 
 #### Creating your non-root user
  - With our domain in place we're now ready to actually log into the box and start to configure the server itself.
- - Since we don't yet have a user we'll need to login as root:
+ - Since we don't yet have a user we'll need to log in as root:
    ```
    $ ssh root@your_server_ip
    ```
@@ -219,10 +219,10 @@ This guide assumes you're running macOS or linux on your local machine.
    $ ./urbit <ship_dir_name>
    ```
  - Your ship should now be sailing on the digital ocean, check `https://your_domain`, if everything is working properly you should see a login page.
- - Login with the code from `+code` in dojo like normal and you should see all of your applications.
+ - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
 
 #### Leaving your Urbit running in a Screen session
- - Finally, to leave your Urbit running after you disconnect we can leave it in a Screen session. This is just a way to leave applications running in the background while being easily able to reconnect them. Alternatively, the same can be done with tmux. 
+ - Finally, to leave your Urbit running after you disconnect we can leave it in a Screen session. This is just a way to leave applications running in the background and then reconnect to them later. Alternatively, the same can be done with tmux. 
  - First start with your ship stopped, then run the following:
    ```
    $ screen -S urbit
