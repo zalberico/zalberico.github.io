@@ -243,6 +243,7 @@ This guide assumes you're running macOS or linux on your local machine.
  - A lot of the above documentation comes from combining existing resources from Digital Ocean and Urbit into a single guide.
  - The main piece here that I had to figure out myself was the specific Nginx config required to get Urbit to work properly.
  - Nginx is also pretty powerful and configurable. You can do things like have your Urbit on an existing server under a subdomain. That kind of thing is left as an exercise for the reader.
+ - On iOS you can save a website to your homescreen as an icon. If you do this for your Urbit domain it's a little like having it as an app.
  - For the docs that made up this guide see the following links:
  - [Digital Ocean Initial Setup][DO Initial Setup]
  - [Digital Ocean DNS][DO DNS]
