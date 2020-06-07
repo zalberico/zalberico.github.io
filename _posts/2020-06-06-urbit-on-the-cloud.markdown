@@ -10,13 +10,13 @@ categories: essay
 #### What is this guide?
 The goal of this guide is to have clear and easy to follow best practices for deploying an Urbit node to a server you control in the cloud. Deploying in the cloud allows you to access your Urbit from any device.
 
-Most Urbit users start out running their ship locally on one machine in order to play with it, but this means when your machine is offline your urbit node is offline too (and can't get updates). 
+Most Urbit users start out running their ship locally on one machine in order to play with it, but this means when your machine is offline your Urbit node is offline too (and can't get updates). 
 You can also only access your Urbit from that one machine.
 
 This guide uses Digital Ocean as the cloud provider because DO focuses on this kind of use case (individual devs running something for themselves). 
 This means prices are easy to understand and they provide good tools that are easy to use. In theory the same steps apply to other cloud providers like AWS, Google Cloud, and Azure, but they're enterprise focused - so their prices and tooling are more complicated (partly to obscure costs, but they also just do more than we need).
 
-Tlon is working on automation to make deployment to Google Cloud easier in the future, but for now Digital Ocean is a good option (and what I personally use).
+Tlon is working on automation to make deployment to Google Cloud easier in the future, but for now Digital Ocean is a good option, and what I personally use.
 
 This guide assumes you're running macOS or linux on your local machine.
 
@@ -35,20 +35,18 @@ This guide assumes you're running macOS or linux on your local machine.
  - **Additional Options**: None
  - **Authentication**: SSH keys, add a New SSH Key following the instructions DO gives you.
  - **How many Droplets**: 1
- - **Choose a hostname**: This will be the hostname of the box you ssh into (can be whatever you want, I used my urbit planet name).
+ - **Choose a hostname**: This will be the hostname of the box you ssh into (can be whatever you want, I used my Urbit planet name).
  - **Add tags**: None
  - **Project**: It'll select your default.
- - **Backups**: Optional (it costs a little extra, but I have it enabled for piece of mind).
+ - **Backups**: Optional (it costs a little extra, but I have it enabled for peace of mind).
 
 #### Getting your own domain
- - Your own domain will make accessing your urbit a lot easier (it'll also allow you to secure things with a Let's Encrypt cert).
- - Domains are relatively inexpensive and since this guide is about best practices I'm making it a required step.
- - There are a lot of domain name registrars you can use, this guide suggests [gandi.net][Gandi] because that's the one I use.
- - From there you can search for and register a domain that you like.
+Your own domain will make accessing your Urbit a lot easier (it'll also allow you to secure things with a Let's Encrypt cert). Domains are relatively inexpensive and since this guide is about best practices I'm making it a required step. 
+
+There are a lot of domain name registrars you can use, this guide suggests [gandi.net][Gandi] because that's the one I use. From there you can search for and register a domain that you like.
 
 #### Configuring your domain for your Digital Ocean droplet
- - Once you've registered your domain you'll need to configure it to use Digital Ocean for DNS.
- - The following steps are done on the Gandi website.
+Once you've registered your domain you'll need to configure it to use Digital Ocean for DNS. The following steps are done on the Gandi website.
  - Click Domain on the left panel
  - Click the domain you're going to use for Urbit
  - Click "Gandi's LiveDNS nameservers" under name servers on the overview page
@@ -63,7 +61,7 @@ This guide assumes you're running macOS or linux on your local machine.
  - Back on the DO site, click Networking from the left panel and then enter the domain you registered to have it set for your project.
 
 #### Creating your non-root user
- - With our domain in place we're now ready to actually log into the box and start to configure the server itself.
+With our domain in place we're now ready to actually log into the box and start to configure the server itself.
  - Since we don't yet have a user we'll need to log in as root:
    ```
    $ ssh root@your_server_ip
@@ -88,7 +86,7 @@ This guide assumes you're running macOS or linux on your local machine.
  - You should now be able to use this user going forward with `sudo` when necessary.
 
 #### Setting up a basic firewall
- - Continuing to follow the DO docs we're going to configure the ufw firewall.
+Continuing to follow the DO docs we're going to configure the ufw firewall.
  - The below command shows us the applications available to be easily configured with firewall rules by ufw.
    ```
    $ sudo ufw app list
@@ -107,8 +105,7 @@ This guide assumes you're running macOS or linux on your local machine.
    ```
 
 #### Installing Nginx
- - Nginx is a webserver we're going to use as a reverse proxy. All incoming traffic to our Digital Ocean droplet will pass through Nginx and from there to Urbit.
- - This allows us to lock everything else down and secure just that entry point.
+Nginx is a webserver we're going to use as a reverse proxy. All incoming traffic to our Digital Ocean droplet will pass through Nginx and from there to Urbit. This allows us to lock everything else down and secure just that entry point.
  - First we need to update available packages and install Nginx.
    ```
    $ sudo apt update
@@ -137,7 +134,7 @@ This guide assumes you're running macOS or linux on your local machine.
    ```
 
 #### Configuring Nginx
- - Now we're going to configure Nginx so it serves up your Urbit traffic securely.
+Now we're going to configure Nginx so it serves up your Urbit traffic securely.
  - Navigate to the `sites-available` directory:
    ```
    $ cd /etc/nginx/sites-available
@@ -173,7 +170,7 @@ This guide assumes you're running macOS or linux on your local machine.
    ```
 
 #### Configuring Let's Encrypt secure certificate
- - Now that we've got the Nginx reverse proxy installed we're going to get a Let's Encrypt SSL cert for it and configure it to automatically renew.
+Now that we've got the Nginx reverse proxy installed we're going to get a Let's Encrypt SSL cert for it and configure it to automatically renew.
  - We're going to do this with certbot, first we have to add the up to date repository:
  ```
  $ sudo add-apt-repository ppa:certbot/certbot
@@ -188,7 +185,7 @@ This guide assumes you're running macOS or linux on your local machine.
  ```
  - You'll have to agree to the TOS and then it'll run a test to verify that you control the domain you're requesting a cert for.
  - Certbot will then ask if you want to redirect all traffic to HTTPS. You should select yes for this (option 2).
- - Certbot will automatically update your nginx config with the settings it needs. It'll also automatically renew before cert expiration.
+ - Certbot will automatically update your Nginx config with the settings it needs. It'll also automatically renew before cert expiration.
  - You can now verify your site is working properly by going to `https://your_domain`, you should see a secure certificate.
  - To confirm that certbot will renew properly you can run the following command:
  ```
@@ -196,9 +193,7 @@ This guide assumes you're running macOS or linux on your local machine.
  ```
 
 #### Installing Urbit
- - Finally we're ready to install Urbit on your very own server.
- - This part is actually pretty easy, if you haven't installed Urbit locally then the instructions are the exact same as the ones in the Urbit [install doc][Urbit Install].
- - If you have a local ship already, we're going to install Urbit on the server and then send your local ship up.
+Finally we're ready to install Urbit on your very own server. This part is actually pretty easy, if you haven't installed Urbit locally then the instructions are the exact same as the ones in the Urbit [install doc][Urbit Install]. If you have a local ship already, we're going to install Urbit on the server and then send your local ship up.
  - **WARN**: Since Urbit is p2p you don't want to ever run two copies of your ship simultaneously. This is because other nodes that interact with each of your copies will be confused by which one is the most up to date. If you end up accidentally doing this you'll have to do a 'personal breach' described in the Urbit docs to fix things.
  - The first thing you're going to want to do is shut down your local ship, either with control-d or `|exit` in dojo.
  - Next we're gong to install Urbit on the server:
@@ -220,11 +215,11 @@ This guide assumes you're running macOS or linux on your local machine.
    $ tar -zxvf <ship_dir_name>.tar.gz
    $ ./urbit <ship_dir_name>
    ```
- - Your ship should now be sailing on the digital ocean, check `https://your_domain`, if everything is working properly you should see a login page.
+ - Your ship should now be sailing on the digital ocean. Check `https://your_domain`, if everything is working properly you should see a login page.
  - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
 
 #### Leaving your Urbit running in a Screen session
- - Finally, to leave your Urbit running after you disconnect we can leave it in a Screen session. This is just a way to leave applications running in the background and then reconnect to them later. Alternatively, the same can be done with tmux. 
+Finally, to leave your Urbit running after you disconnect we can leave it in a Screen session. This is just a way to leave applications running in the background and then reconnect to them later. Alternatively, the same can be done with tmux. 
  - First start with your ship stopped, then run the following:
    ```
    $ screen -S urbit
@@ -241,19 +236,22 @@ This guide assumes you're running macOS or linux on your local machine.
 - There are more screen commands for interacting with sessions that are easy to find on the internet.
 
 #### Links and Misc.
- - A lot of the above documentation comes from combining existing resources from Digital Ocean and Urbit into a single guide.
- - The main piece here that I had to figure out myself was the specific Nginx config required to get Urbit to work properly.
- - Nginx is also pretty powerful and configurable. You can do things like have your Urbit on an existing server under a subdomain. That kind of thing is left as an exercise for the reader.
- - On iOS you can save a website to your homescreen as an icon. If you do this for your Urbit domain it's a little like having it as an app.
- - For the docs that made up this guide see the following links:
- - [Digital Ocean Initial Setup][DO Initial Setup]
- - [Digital Ocean DNS][DO DNS]
- - [Digital Ocean Nginx Installation][DO Nginx Install]
- - [Digital Ocean Nginx Config][DO Nginx Config]
- - [Digital Ocean SSL Cert Setup][DO SSL Config]
- - [Urbit Install Docs][Urbit Install]
- - [Urbit Basic Cloud Install][Urbit Basic Cloud Install]
- - Please email me or submit PRs for breaks if you find them to my [blog][Blog Github].
+A lot of the above documentation comes from combining existing resources from Digital Ocean and Urbit into a single guide. The main piece here that I had to figure out myself was the specific Nginx config required to get Urbit to work properly. 
+
+Nginx is also pretty powerful and configurable. You can do things like have your Urbit on an existing server under a subdomain. That kind of thing is left as an exercise for the reader.
+
+On iOS you can save a website to your homescreen as an icon. If you do this for your Urbit domain it's a little like having it as an app.
+
+ - For the docs that made up this guide see the following links.
+   - [Digital Ocean Initial Setup][DO Initial Setup]
+   - [Digital Ocean DNS][DO DNS]
+   - [Digital Ocean Nginx Installation][DO Nginx Install]
+   - [Digital Ocean Nginx Config][DO Nginx Config]
+   - [Digital Ocean SSL Cert Setup][DO SSL Config]
+   - [Urbit Install Docs][Urbit Install]
+   - [Urbit Basic Cloud Install][Urbit Basic Cloud Install]
+
+Please email me or submit PRs for breaks if you find them to my [blog][Blog Github].
 
  [Gandi]: https://www.gandi.net/
  [Digital Ocean]: https://www.digitalocean.com/
