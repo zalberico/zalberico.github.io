@@ -94,6 +94,10 @@ I have more articles and books that I liked linked in my [about][About] page.
 
 I remember ESR responding to some email I sent about getting an iPod to work in Fedora Core 4 around the time I read his post and I'm pretty sure Richard Stallman responded to some email I sent around that time too. I thought that was nice. In the spirit of continuing that, feel free to reach out to me with specific questions if you like. 
 
+#### Translations
+
+This post was translated into Japanese in two parts: [Part 1][Japanese Translation Part 1] [Part 2][Japanese Translation Part 2].
+
 [How To Become A Hacker]: http://www.catb.org/~esr/faqs/hacker-howto.html
 [Learn Python The Hard Way]: https://learnpythonthehardway.org/python3/
 [Hacking The Art of Exploitation]: https://www.amazon.com/Hacking-Art-Exploitation-Jon-Erickson/dp/1593271441
@@ -113,3 +117,5 @@ I remember ESR responding to some email I sent about getting an iPod to work in 
 [PG]: http://paulgraham.com/articles.html
 [ESR]: https://en.wikipedia.org/wiki/Eric_S._Raymond
 [Asking Questions]: https://zalberico.com/essay/2017/02/21/asking-questions.html
+[Japanese Translation Part 1]: https://itnews.org/news_contents/how-to-become-a-hacker-1
+[Japanese Translation Part 2]: https://itnews.org/news_contents/how-to-become-a-hacker-2
