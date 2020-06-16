@@ -1,7 +1,7 @@
 ---                                                                                                                
 layout: post
 title: "Urbit In The Cloud"
-desription: "Sailing your Urbit ship on a Digital Ocean"
+description: "Sailing your Urbit ship on a Digital Ocean"
 date: 2020-06-06
 categories: essay
 ---
