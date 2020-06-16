@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "How To Become A Hacker"
+description: "What I would have liked to have read when starting out."
 date: 2020-04-19
 categories: essay
 ---

@@ -10,6 +10,21 @@
   <link rel="alternate" type="application/atom+xml" title="Zach Alberico" href="/feed.xml">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+ 
+  <!-- Twitter cards -->
+  <meta name="twitter:site"    content="@{{ site.twitter_username }}">
+  <meta name="twitter:title"   content="{{ page.title }}">
+ 
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  {% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+  {% endif %}
+ 
+  <meta name="twitter:card"  content="summary">
+  <meta name="twitter:image" content="{{ site.title_image }}">
+  <!-- end of Twitter cards -->
+
 </head>
   <body>
     <h4><a href="{{ site.url }}">Zach Alberico</a></h4>

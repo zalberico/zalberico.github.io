@@ -1,11 +1,12 @@
 title: Zach Alberico
 email: hello@zalberico.com
-description: Thoughts on software and work in the Bay Area
+description: Zach Alberico's blog for thoughts on software and work in the Bay Area
 author: Zach Alberico
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://zalberico.com" # the base hostname & protocol for your site
 twitter_username: zachalberico
 github_username:  zalberico
+title_image: "https://zalberico.com/favicon/android-chrome-512x512.png"
 
 # Build settings
 markdown: kramdown

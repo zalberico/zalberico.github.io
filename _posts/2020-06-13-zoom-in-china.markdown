@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Zoom in China"
+description: "Software Companies and Ethical Responsibility"
 date: 2020-06-13
 categories: essay
 ---
