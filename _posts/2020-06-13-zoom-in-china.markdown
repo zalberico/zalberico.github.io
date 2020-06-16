@@ -59,7 +59,7 @@ I understand the historical risk of imposing your views on another culture, but 
 
 **Exec:** You may be able to say we shouldn't engage in this market at all and feel good about it, but we can't afford not to - others will step in and get a stronger position. Countries that think we'll apply our own ethical framework to their policy might avoid signing with us at all if they think we'll walk away because of our own arbitrary ethical standards.
 
-**Sarah:** This seems like the cost of doing the right thing. It's easy to do the right thing when it's also the easy thing - the only time it's a real test is when it's *hard*. When it's something you wouldn't already do otherwise anyway. I'd argue that companies and governments that think our unwillingness to engage in the children burnings make us bad partners are probably those we would want to avoid anyway.
+**Sarah:** This seems like the cost of doing the right thing. It's easy to do the right thing when it's also the easy thing - the only time it's a real test is when it's *hard*. When it's something you wouldn't already do otherwise anyway. I'd argue that companies and governments that think our unwillingness to engage in the child burnings makes us bad partners are probably those we would want to avoid anyway.
 
 ---
 
