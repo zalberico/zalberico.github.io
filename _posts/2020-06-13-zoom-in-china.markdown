@@ -41,9 +41,13 @@ Every culture has a different view of what's right, being uncomfortable with the
 
 I understand the historical risk of imposing your views on another culture, but that doesn't mean all views are equally valid, that all morality is relative. I'm also not suggesting we necessarily force our views on them, just that at a minimum we don't support what we find to be objectionable.
 
-**Exec:** We monitor the media coming out of that country in order to make sure there's no abuse of the policy. We haven't seen much to suggest that they're abusing our software for this purpose. Our software is also not used to burn the children directly, we just help with the operation of the ministry of burnings generally.
+**Exec:** We monitor the media coming out of that country in order to make sure there's no abuse of the policy. We haven't seen much to suggest that they're abusing our software for this purpose. Our software is also not used to burn the children directly, we just help with the operation of the Ministry of Burnings generally. 
 
 **Sarah:** Yeah, but the policy itself *is* the abuse. Also, isn't the media that comes out tightly controlled by the state? I don't take much comfort just because we're not the ones who explicitly carry out the burnings.
+
+**Exec:** Our software is also critical for the Ministry's other, less controversial responsibilities. This includes things like their forest preservation and environmental protection mandates. While I'd like to be able to pick and choose only the workflows I personally am comfortable with, that's not realistic for successful contract negotiation or enforcement, and it's again imposing our cultural views onto the customer.
+
+**Sarah:** I'm also willing to concede that, academically, there is some theoretical point where the utilitarian trade-off could make the child burnings acceptable, but it certainly isn't local forest preservation. I would also not trust our judgment in making this kind of calculation given the incentives involved and the risk of rationalizing our actions. I'd be much more comfortable with drawing a line at enabling customer workflows that violate human rights.
 
 **Exec:** It's not our place to determine policy. As a global company we have to follow laws within the regions that we operate. It would be extremely difficult to have to evaluate these nuanced issues ourselves. Our country has its own policies that have disenfranchised groups of people for decades, yet we still operate in our home country. Isn't this just a double standard that you're applying to a foreign place with foreign laws? We need to operate within the legal framework of these countries, we need to respect different cultures' rules and regulations. What right do we have - a foreign company - to determine what is or isn't 'right' for an entire population of people?
 
