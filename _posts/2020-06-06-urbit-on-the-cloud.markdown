@@ -92,9 +92,10 @@ Continuing to follow the DO docs we're going to configure the ufw firewall.
    ```
    $ sudo ufw app list
    ```
- - Next we'll configure ufw to allow connections via ssh when the firewall is enabled.
+ - Next we'll configure ufw to allow connections via ssh and to allow Urbit to use the standard web port when the firewall is enabled.
    ```
    $ sudo ufw allow OpenSSH
+   $ sudo ufw allow www
    ```
  - Next we'll turn on the firewall.
    ```
@@ -105,104 +106,17 @@ Continuing to follow the DO docs we're going to configure the ufw firewall.
    $ sudo ufw status
    ```
 
-#### Installing Nginx
-Nginx is a webserver we're going to use as a reverse proxy. All incoming traffic to our Digital Ocean droplet will pass through Nginx and from there to Urbit. This allows us to lock everything else down and secure just that entry point.
- - First we need to update available packages and install Nginx.
-   ```
-   $ sudo apt update
-   $ sudo apt install nginx
-   ```
- - Now that we've installed Nginx we have to update the firewall settings:
-   ```
-   $ sudo ufw allow 'Nginx Full'
-   ```
- - You can verify this change with:
-   ```
-   $ sudo ufw status
-   ```
- - Nginx should automatically be started after installation, you can confirm this with:
-   ```
-   $ systemctl status nginx
-   ```
- - You can also confirm that it's up by going to your droplet's IP address, you should see a "Welcome to nginx!" message.
- - You can start/stop/restart Nginx with commands like the following:
-   ```
-   $ sudo systemctl restart nginx
-   ```
- - You can also reload config without restarting with:
-   ```
-   $ sudo systemctl reload nginx
-   ```
-
-#### Configuring Nginx
-Now we're going to configure Nginx so it serves up your Urbit traffic securely.
- - Navigate to the `sites-available` directory:
-   ```
-   $ cd /etc/nginx/sites-available
-   ```
- - Create a new file for your domain:
-   ```
-   $ sudo vim your_domain
-   ```
- - Add the following config (putting your domain in the **your_domain** location):
-   ```
-   server {
-    server_name your_domain;
-
-    location / {
-        proxy_pass http://localhost:8080;
-        proxy_set_header Forwarded for=$remote_addr;
-        proxy_set_header Connection '';
-        proxy_http_version 1.1;
-        chunked_transfer_encoding off;
-        proxy_buffering off;
-        proxy_cache off;
-    }
-   }
-   ```
-   *Note*: **your_domain** should be of the form `example.com` without www or https.
- - Next we're going to create a symlink to enable this in `sites-enabled` for Nginx:
-   ```
-   $ sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/your_domain
-   ```
- - Now reload the Nginx config:
-   ```
-   $ sudo nginx -s reload
-   ```
-
-#### Configuring Let's Encrypt secure certificate
-Now that we've got the Nginx reverse proxy installed we're going to get a Let's Encrypt SSL cert for it and configure it to automatically renew.
- - We're going to do this with certbot, first we have to add the up to date repository:
- ```
- $ sudo add-apt-repository ppa:certbot/certbot
- ```
- - Next we're going to install the package:
- ```
- $ sudo apt install python-certbot-nginx
- ```
- - Next we're going to request a cert from certbot:
- ```
- $ sudo certbot --nginx -d your_domain
- ```
- - You'll have to agree to the TOS and then it'll run a test to verify that you control the domain you're requesting a cert for.
- - Certbot will then ask if you want to redirect all traffic to HTTPS. You should select yes for this (option 2).
- - Certbot will automatically update your Nginx config with the settings it needs. It'll also automatically renew before cert expiration.
- - You can now verify your site is working properly by going to `https://your_domain`, you should see a secure certificate.
- - To confirm that certbot will renew properly you can run the following command:
- ```
- $ sudo certbot renew --dry-run
- ```
-
 #### Installing Urbit
 Finally we're ready to install Urbit on your very own server. This part is actually pretty easy, if you haven't installed Urbit locally then the instructions are the exact same as the ones in the Urbit [install doc][Urbit Install]. If you have a local ship already, we're going to install Urbit on the server and then send your local ship up.
  - **WARN**: Since Urbit is p2p you don't want to ever run two copies of your ship simultaneously. This is because other nodes that interact with each of your copies will be confused by which one is the most up to date. If you end up accidentally doing this you'll have to do a 'personal breach' described in the Urbit docs to fix things.
  - The first thing you're going to want to do is shut down your local ship, either with control-d or `|exit` in dojo.
- - Next we're gong to install Urbit on the server:
+ - Next we're going to install Urbit on the server and permit it to bind to the web port:
    ```
    $ ssh your_user@your_domain
    $ curl -O https://bootstrap.urbit.org/urbit-v0.10.5-linux64.tgz
    $ tar xzf urbit-v0.10.5-linux64.tgz
    $ cd urbit-v0.10.5-linux64
+   $ sudo setcap 'cap_net_bind_service=+ep' urbit 
    ```
  - Now we're going to tar up your local ship and send it to your server, from your local machine's urbit directory:
    ```
@@ -215,6 +129,11 @@ Finally we're ready to install Urbit on your very own server. This part is actua
    $ cd urbit-v0.10.5-linux64
    $ tar -zxvf <ship_dir_name>.tar.gz
    $ ./urbit <ship_dir_name>
+   ```
+ - Now we run a few commands in Dojo to request a Let’s Encrypt cert for your domain (replace `tld` with whatever your Top-level domain is e.g. `com` in `example.com`:
+   ```
+   ~sampel-palnet:dojo> |start %acme
+   ~sampel-palnet:dojo> :acme &path /tld/your_domain
    ```
  - Your ship should now be sailing on the digital ocean. Check `https://your_domain`, if everything is working properly you should see a login page.
  - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
