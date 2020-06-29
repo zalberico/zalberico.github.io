@@ -200,19 +200,19 @@ Finally we're ready to install Urbit on your very own server. This part is actua
  - Next we're going to install Urbit on the server:
    ```
    $ ssh your_user@your_domain
-   $ curl -O https://bootstrap.urbit.org/urbit-v0.10.5-linux64.tgz
-   $ tar xzf urbit-v0.10.5-linux64.tgz
-   $ cd urbit-v0.10.5-linux64
+   $ curl -O https://bootstrap.urbit.org/urbit-v0.10.7-linux64.tgz
+   $ tar xzf urbit-v0.10.7-linux64.tgz
+   $ cd urbit-v0.10.7-linux64
    ```
  - Now we're going to tar up your local ship and send it to your server, from your local machine's urbit directory:
    ```
    $ tar -zcvf <ship_dir_name>.tar.gz <ship_dir_name>
-   $ scp <ship_dir_name>.tar.gz  your_user@your_domain:/home/your_user/urbit-v0.10.5-linux64
+   $ scp <ship_dir_name>.tar.gz  your_user@your_domain:/home/your_user/urbit-v0.10.7-linux64
    ```
  - Back on your server let's untar your ship and start it up:
    ```
    $ ssh your_user@your_domain
-   $ cd urbit-v0.10.5-linux64
+   $ cd urbit-v0.10.7-linux64
    $ tar -zxvf <ship_dir_name>.tar.gz
    $ ./urbit <ship_dir_name>
    ```
