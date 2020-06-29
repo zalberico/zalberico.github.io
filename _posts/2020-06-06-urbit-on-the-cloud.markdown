@@ -197,7 +197,7 @@ Now that we've got the Nginx reverse proxy installed we're going to get a Let's 
 Finally we're ready to install Urbit on your very own server. This part is actually pretty easy, if you haven't installed Urbit locally then the instructions are the exact same as the ones in the Urbit [install doc][Urbit Install]. If you have a local ship already, we're going to install Urbit on the server and then send your local ship up.
  - **WARN**: Since Urbit is p2p you don't want to ever run two copies of your ship simultaneously. This is because other nodes that interact with each of your copies will be confused by which one is the most up to date. If you end up accidentally doing this you'll have to do a 'personal breach' described in the Urbit docs to fix things.
  - The first thing you're going to want to do is shut down your local ship, either with control-d or `|exit` in dojo.
- - Next we're gong to install Urbit on the server:
+ - Next we're going to install Urbit on the server:
    ```
    $ ssh your_user@your_domain
    $ curl -O https://bootstrap.urbit.org/urbit-v0.10.5-linux64.tgz
