@@ -25,6 +25,7 @@ Asterisk links are free to read online.
  - [After Life*](https://sifter.org/~simon/AfterLife/)
  - [True Names*](http://www.scotswolf.com/TRUENAMES.pdf)
  - [Exhalation](https://www.amazon.com/Exhalation-Stories-Ted-Chiang/dp/1101947888)
+ - [Stories of your Life and Others](https://www.amazon.com/Stories-Your-Life-Others-Chiang/dp/1101972122/) (Liking What You See: A Documentary)
 
 ##### Rationality
  - [Rationality: From AI to Zombies](https://intelligence.org/rationality-ai-zombies/)
@@ -69,6 +70,7 @@ Asterisk links are free to read online.
  - [Cafe Insider](https://cafe.com/insider/)
  - [Stratechery*](https://stratechery.com/)
  - [Money Stuff*](https://www.bloomberg.com/opinion/authors/ARbTQlRLRjE/matthew-s-levine)
+ - [Persuasion*](https://www.persuasion.community/)
 
 #### Blogs
  - [Pixel Poppers*](https://pixelpoppers.com/) - My friend's videogame analysis blog, I like this [post.](https://pixelpoppers.com/2018/05/faith-in-the-possibility-of-good-a-close-reading-of-q.u.b.e-directors-cut/)

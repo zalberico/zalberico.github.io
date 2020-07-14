@@ -97,7 +97,11 @@ I remember ESR responding to some email I sent about getting an iPod to work in 
 
 #### Translations
 
-This post was translated into Japanese in two parts: [Part 1][Japanese Translation Part 1] [Part 2][Japanese Translation Part 2].
+Thanks to contributions from interested readers, this post has been translated into other languages.
+
+Japanese: [Part 1][Japanese Translation Part 1] [Part 2][Japanese Translation Part 2].
+
+Russian: [Russian Translation]
 
 [How To Become A Hacker]: http://www.catb.org/~esr/faqs/hacker-howto.html
 [Learn Python The Hard Way]: https://learnpythonthehardway.org/python3/
@@ -120,3 +124,4 @@ This post was translated into Japanese in two parts: [Part 1][Japanese Translati
 [Asking Questions]: https://zalberico.com/essay/2017/02/21/asking-questions.html
 [Japanese Translation Part 1]: https://itnews.org/news_contents/how-to-become-a-hacker-1
 [Japanese Translation Part 2]: https://itnews.org/news_contents/how-to-become-a-hacker-2
+[Russian Translation]: https://howtorecover.me/kak-stat-hakerom
