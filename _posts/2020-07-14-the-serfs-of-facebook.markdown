@@ -154,7 +154,7 @@ Philip continued, "Your users will still likely have farms in the existing earld
 
 Jonathan looked at the small village.
 
-Jonathan saw a smiling Preet and Anne. Sam Harris waved in his direction and even Yascha Mounk looked happy. He thought of the serfs within the city walls currently farming all day and night under the persistent stare and influence of the knights, listening to the relentless shouting of the heralds. He thought of Sir Brian Acton alone in his castle. He thought of all of the serfs in the prisons of the tyrant king and the arguing amongst earls about who should own the serfs and what they were should be allowed to grow.
+Jonathan saw a smiling Preet and Anne. Sam Harris waved in his direction and even Yascha Mounk looked happy. He thought of the serfs within the city walls currently farming all day and night under the persistent stare and influence of the knights, listening to the relentless shouting of the heralds. He thought of Sir Brian Acton alone in his castle. He thought of all of the serfs in the prisons of the tyrant king and the arguing amongst earls about who should own the serfs and what they should be allowed to grow.
 
 He saw a future of free society and open discussion in a decentralized community, where people controlled their own farms and their own data away from the knights pushing controversy. 
 
