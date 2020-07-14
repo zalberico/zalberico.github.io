@@ -38,7 +38,7 @@ At that moment a small man with a determined expression walked up to the serfs' 
 
 "The herald of the Earl reminds you that the local baker has delicious bread on sale now!"
 
-"Are you interested in Triplebyte? It could change your life!"
+"Are you interested in Triplebyte? You could become a knight and change your life!"
 
 "Our mighty king reminds you he is the greatest king we've ever had!"
 
@@ -96,13 +96,13 @@ Jonathan thought for a moment, "Do the serfs ignore these pronouncements? It loo
 
 Jonathan thought about this for a while. He was glad at least their earls were mostly benevolent, but wondered what would happen if new earls took over. As he was thinking, he noticed one of the farming serfs sit down to rest. The knights nearby whispered nervously to each other, then surreptitiously threw a few small likes at the feet of the serf. Newly invigorated, the serf began to work again and the knights were pleased.
 
-Jonathan began to look upset, "Why do the Knights support this work? They are skilled craftsmen, couldn't they tend their own land?"
+Jonathan began to look upset, "Why do the Knights support this work? They are skilled farmers, couldn't they tend their own land?"
 
 "The earls offer the knights a comfortable life, high salary, and pleasant work (though curiously poor housing). Life outside the earldom is uncertain and difficult."
 
 "Do no Knights strike out on their own?"
 
-Philip was quiet for a moment. He pointed across a vast vista to a large castle in the distance adjacent to that of their own Earl Zuckerberg's. "That is the castle of Sir Brian Acton of the former Earldom of WhatsApp. Sir Acton was an idealistic craftsman who rejected the ways of our earl. He promised the serfs he would take no part of their  data harvest they produced from the land he provided them, and instead the serfs even paid him a small cash fee for his protection. He had no knights to watch and report on his people and no heralds spreading pronouncements."
+Philip was quiet for a moment. He pointed across a vast vista to a large castle in the distance adjacent to that of their own Earl Zuckerberg's. "That is the castle of Sir Brian Acton of the former Earldom of WhatsApp. Sir Acton was an idealistic farmer who rejected the ways of our earl. He promised the serfs he would take no part of their  data harvest they produced from the land he provided them, and instead the serfs even paid him a small cash fee for his protection. He had no knights to watch and report on his people and no heralds spreading pronouncements."
 
 "What happened?"
 
@@ -136,7 +136,7 @@ Prior Philip led Jonathan back to where they stabled their horses. They mounted 
 
 Philip said, "I'm taking you to a small place where there are no serfs, only free men and women."
 
-They approached a small village and found houses without a castle wall, without earls, or knights, being worked on by the craftsmen themselves. Preet Bharara was there, along with his friend Anne Milgram. Sam Harris, Ben Thompson, Yascha Mounk, and Benedict Evans could also be seen working on their houses.
+They approached a small village and found houses without a castle wall, without earls, or knights, being worked on by the people themselves. Preet Bharara was there, along with his friend Anne Milgram. Sam Harris, Ben Thompson, Yascha Mounk, and Benedict Evans could also be seen working on their houses.
 
 By having their own houses they can spend the time to create more complex and nuanced gardens, all without pressure from merchants and heralds. They are supported by others that value their work on its own merits and not for the amount of people that it can attract to hear pronouncements. And while mobs may complain to the earl and demand those that support the cottage industry be destroyed, he has no power to take their land from them because it is outside of his realm.
 
