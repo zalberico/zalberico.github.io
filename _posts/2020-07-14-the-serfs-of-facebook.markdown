@@ -130,7 +130,7 @@ Philip gave Jonathan a surprised look and said, "What? No. Free society."
 
 Jonathan was not very confident. "How can I help them? If I'm successful I'll be pressured to sell just like Sir Acton."
 
-"Sir Acton's mistake was to give the serfs his land instead of helping them tend their own. Others have made different mistakes - the Mastodon village focuses on sophisticated tools for the farmers, but then leaves them to figure out how to tend the land themselves. Still others like the Earldoms of Snap and Medium have refused to sell to Earl Zuckerberg or Earl Dorsey, but only out of their own greed to create a competing earldom with their own data harvest and knights. There is another small monastic community of the Urbit church that may be interesting in the future, but today they live cloistered away from the rest of the world. There is another way."
+"Sir Acton's mistake was to give the serfs access to his land instead of helping them tend their own. Others have made different mistakes - the Mastodon village focuses on sophisticated tools for the farmers, but then leaves them to figure out how to tend the land themselves. Still others like the Earldoms of Snap and Medium have refused to sell to Earl Zuckerberg or Earl Dorsey, but only out of their own greed to create a competing earldom with their own data harvest and knights. There is another small monastic community of the Urbit church that may be interesting in the future, but today they live cloistered away from the rest of the world. There is another way."
 
 Prior Philip led Jonathan back to where they stabled their horses. They mounted up and rode outside of the castle walls. Philip rode next to Jonathan.
 
