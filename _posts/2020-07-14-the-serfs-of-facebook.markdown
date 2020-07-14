@@ -158,4 +158,4 @@ Jonathan saw a smiling Preet and Anne. Sam Harris waved in his direction and eve
 
 He saw a future of free society and open discussion in a decentralized community, where people controlled their own farms and their own data away from the knights pushing controversy. 
 
-It wouldn't be easy, but it was the future he wanted to help bring about. 
+It wouldn't be easy, but it was the future he wanted to help them build. 
