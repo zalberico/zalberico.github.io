@@ -96,11 +96,11 @@ Jonathan thought for a moment, "Do the serfs ignore these pronouncements? It loo
 
 Jonathan thought about this for a while. He was glad at least their earls were mostly benevolent, but wondered what would happen if new earls took over. As he was thinking, he noticed one of the farming serfs sit down to rest. The knights nearby whispered nervously to each other, then surreptitiously threw a few small likes at the feet of the serf. Newly invigorated, the serf began to work again and the knights were pleased.
 
-Jonathan began to look upset, "Why do the Knights support this work? They are skilled farmers, couldn't they tend their own land?"
+Jonathan began to look upset, "Why do the knights support this work? They are skilled farmers, couldn't they tend their own land?"
 
 "The earls offer the knights a comfortable life, high salary, and pleasant work (though curiously poor housing). Life outside the earldom is uncertain and difficult."
 
-"Do no Knights strike out on their own?"
+"Do no knights strike out on their own?"
 
 Philip was quiet for a moment. He pointed across a vast vista to a large castle in the distance adjacent to that of their own Earl Zuckerberg's. "That is the castle of Sir Brian Acton of the former Earldom of WhatsApp. Sir Acton was an idealistic farmer who rejected the ways of our earl. He promised the serfs he would take no part of their  data harvest they produced from the land he provided them, and instead the serfs even paid him a small cash fee for his protection. He had no knights to watch and report on his people and no heralds spreading pronouncements."
 
