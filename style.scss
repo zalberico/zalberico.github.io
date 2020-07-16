@@ -20,3 +20,13 @@ h4{
     text-decoration: none;
    }
 }
+
+img {
+    width: 50vw;
+}
+
+@media only screen and (max-width: 650px) {
+  img {
+    width: 90vw;
+  }
+}

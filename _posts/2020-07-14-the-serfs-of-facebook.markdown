@@ -4,6 +4,7 @@ title: "The Serfs of Facebook"
 description: "Breaking Free of Tech Feudalism"
 date: 2020-07-14
 categories: essay
+image: /assets/serfs_farm.jpeg
 ---
 
 Most days Jonathan woke up and carried out his simple monastic routine of self-study and meditation, but today was different. Today Prior Philip would take him into the city.
@@ -29,6 +30,8 @@ As they approached the city they could see enormous walls surrounding it. Jonath
 Philip looked at Jonathan. "Billions."
 
 They approached one of the small plots and Jonathan looked more closely at the serfs working the data fields. One man was tending to multiple plots simultaneously: Jonathan saw him watering a beautiful garden of tweets, and then pruning a leafy Facebook post. At the same time he noticed the knights nearby also staring at the man.
+
+![Jonathan and Philip at the Serf's Farm](/assets/serfs_farm.jpeg)
 
 He looked at Philip and asked, "Who are they?" nodding in the direction of the knights.
 
@@ -68,7 +71,7 @@ The knights ran over to it the retweet filled with excitement. "This one is perf
 
 Jonathan looked at Philip, confused, and asked, "Why are they doing this?"
 
-"In the beginning not everyone tended to their free data farms. Many did not know what to do with them, some only planted one or two tweets and then abandoned them entirely. This disappointed the earls of our kingdom. If they don't encourage growth their share of the data harvest is smaller, there's no one to hear their pronouncements, and all of the land they spent time cultivating is wasted. They realized that not only do they need to make the land easy to cultivate, but they need to make the serfs want to cultivate it. They experimented for a while and learned that new types of controversial, viciously competitive crops are great for encouraging data farming - they call this type of encouragement 'engagement'."
+"In the beginning not everyone tended to their free data farms. Many did not know what to do with them, some only planted one or two tweets and then abandoned them entirely. This disappointed the earls of our kingdom. If they don't encourage growth, their share of the data harvest is smaller, there's no one to hear their pronouncements, and all of the land they spent time cultivating is wasted. They realized that not only do they need to make the land easy to cultivate, but they need to make the serfs want to cultivate it. They experimented for a while and learned that new types of controversial, viciously competitive crops are great for encouraging data farming - they call this type of encouragement 'engagement'."
 
 Jonathan was skeptical. "If there's too much controversy won't people leave the earldom entirely?"
 
@@ -118,6 +121,8 @@ Jonathan pointed at the small group. "Are those people trying to make things bet
 
 Philip smiled and said, "Those laying siege are the former earls of this kingdom. During their reign the serfs had no land of their own and only a small nobility was allowed to participate in the farming. Today, many of their best men and women have left after their wealth was devastated as our current earl rose to power. The few that continue to lay siege maintain their sense of righteous nobility without the capability to justify it. In addition to the siege, they have ambassadors attempting to curry favor with the king's men. They wish for them to throw out the new earls so they may reclaim the earldom. Some even defend the cruelty of the Earldom of TikTok of the Eastern Kingdom just to spite our earl. They were different during their reign - at least then they worked to seek out objective truth to push back against the king in service of the serfs. Today, after losing many of their best, most of those that remain are more interested in rallying mobs to drive controversy for their own survival. Their hatred of our earl corrupts their judgment and their own desperate struggle to survive means they are not in a position to help even if they wanted to. They'd see any other independent groups as a threat to what little they have left."
 
+![The Siege of the Castle](/assets/serfs_siege.jpeg)
+
 At that moment Jonathan saw the fallen nobility lay down their arms and walk a few feet to pick up plows and shovels. They began to farm. Jonathan was surprised. "Why are they tending the lands of our new Earl Zuckerberg and Earl Dorsey if they see them as the enemy?"
 
 "They do so bitterly. The merchants they used to sell pronouncements to now buy from our earls instead, so the old guard must tend the lands of our new lords if they wish to exist at all. They lay a futile siege against the castle and attempt to rally serfs to their cause because the controversy drives their own engagement, but they are largely not effective. Now that the serfs have their own land to work alongside the old earls and can farm with other serfs, they realize that many of the old earls didn't know as much as they pretended to. Today all serfs can farm and while many farm nonsense, some grow blogs more beautiful than the old earls ever did. It is these serfs we must seek to protect. I believe we can also help the few respectable nobles of the old guard that have not yet left or been driven out."
@@ -159,3 +164,9 @@ Jonathan saw a smiling Preet and Anne. Sam Harris waved in his direction and eve
 He saw a future of free society and open discussion in a decentralized community, where people controlled their own farms and their own data away from the knights pushing controversy. 
 
 It wouldn't be easy, but it was the future he wanted to help them build. 
+
+---
+
+*The wonderful illustrations (and general editing) for this post were done by Clara Takahashi of the [Obscure Dinosaur Facts][Obscure Dinosaur Facts] blog.*
+
+[Obscure Dinosaur Facts]: https://obscuredinosaurfacts.com/
