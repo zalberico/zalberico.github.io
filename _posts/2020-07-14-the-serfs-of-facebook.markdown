@@ -35,7 +35,7 @@ They approached one of the small plots and Jonathan looked more closely at the s
 
 He looked at Philip and asked, "Who are they?" nodding in the direction of the knights.
 
-"Those are the knights of Earls Zuckerberg and Dorsey. They are expert farmers employed by the earls. They watch all of the serfs and collect copies of all of their work on the data fields to bring to the Earl's castle."
+"Those are the knights of Earls Zuckerberg and Dorsey. They are expert farmers employed by the earls. They watch all of the serfs and collect clippings of all of their work on the data fields to bring to the Earl's castle."
 
 At that moment a small man with a determined expression walked up to the serfs' fields with a scroll of parchment. He unrolled it and began shouting at the serfs.
 
@@ -158,6 +158,8 @@ Philip continued, "Your users will still likely have farms in the existing earld
 "If you succeed, Earl Zuckerberg won't be able to buy you, the Eastern Kingdom won't be able to pressure you to shut down, and you'll be able to elevate the most knowledgeable serfs, perhaps even some of the earls from the old kingdom."
 
 Jonathan looked at the small village.
+
+![Jonathan and Philip at the Free Village](/assets/free_village.jpeg)
 
 Jonathan saw a smiling Preet and Anne. Sam Harris waved in his direction and even Yascha Mounk looked happy. He thought of the serfs within the city walls currently farming all day and night under the persistent stare and influence of the knights, listening to the relentless shouting of the heralds. He thought of Sir Brian Acton alone in his castle. He thought of all of the serfs in the prisons of the tyrant king and the arguing amongst earls about who should own the serfs and what they should be allowed to grow.
 
