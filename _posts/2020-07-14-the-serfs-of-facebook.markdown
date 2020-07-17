@@ -57,17 +57,17 @@ Philip looked at Jonathan, "There was a time long ago when there were no earls, 
 
 "What happened?"
 
-"In those days it was difficult to prepare a field for data farming. It required a dedicated farmer interested in the art of farming itself. There was more creativity, but there were also fewer people and fewer farms. It was then that some enterprising young farmers hatched a plan. They realized that if they did the hard work of preparing the fields they could get everyone to farm, not just the experts. They cultivated enormous swaths of land and gave it away to the serfs in exchange for copies of what they grow on their data farms as well as requiring them to hear the herald's pronouncements."
+"In those days it was difficult to prepare a field for data farming. It required a dedicated farmer interested in the art of farming itself. There was more creativity, but there were also fewer people and fewer farms. It was then that some enterprising young farmers hatched a plan. They realized that if they did the hard work of preparing the fields they could get everyone to farm, not just the experts. They cultivated enormous swaths of land and gave it away to the serfs in exchange for clippings of what they grow on their data farms as well as requiring them to hear the herald's pronouncements."
 
 Jonathan thought about this for a while.
 
-"That sounds like a good thing? Many serfs had no farms at all and now they all have at least one. They all can participate in growing their own beautiful data and they only need to share copies of it with the Earl and listen to some announcements - that seems fair to me."
+"That sounds like a good thing? Many serfs had no farms at all and now they all have at least one. They all can participate in growing their own beautiful data and they only need to share clippings of it with the Earl and listen to some announcements - that seems fair to me."
 
 "Many thought the same when they first learned of it, but as more began to farm, unexpected things started to happen."
 
 Philip pointed to one of the nearby plots. Jonathan watched some of the growing tweets. One was particularly beautiful, brightly colored, pleasant and happy. It shone briefly and then withered and died. The next row over, he saw an angry-looking thorny retweet with comment.
 
-The knights ran over to it the retweet filled with excitement. "This one is perfect," they exclaimed, and grabbed copies of it and began to spread it to all of the nearby data farms.
+The knights ran over to it the retweet filled with excitement. "This one is perfect," they exclaimed, and grabbed clippings of it and began to spread it to all of the nearby data farms.
 
 Jonathan looked at Philip, confused, and asked, "Why are they doing this?"
 
