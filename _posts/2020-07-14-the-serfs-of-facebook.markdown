@@ -99,7 +99,7 @@ Jonathan thought for a moment, "Do the serfs ignore these pronouncements? It loo
 
 Jonathan thought about this for a while. He was glad at least their earls were mostly benevolent, but wondered what would happen if new earls took over. As he was thinking, he noticed one of the farming serfs sit down to rest. The knights nearby whispered nervously to each other, then surreptitiously threw a few small likes at the feet of the serf. Newly invigorated, the serf began to work again and the knights were pleased.
 
-Jonathan began to look upset, "Why do the knights support this work? They are skilled farmers, couldn't they tend their own land?"
+Jonathan looked upset. "Why do the knights support this work? They are skilled farmers, couldn't they tend their own land?"
 
 "The earls offer the knights a comfortable life, high salary, and pleasant work (though curiously poor housing). Life outside the earldom is uncertain and difficult."
 
@@ -109,7 +109,7 @@ Philip was quiet for a moment. He pointed across a vast vista to a large castle 
 
 "What happened?"
 
-"He was too successful. Earl Zuckerberg saw many of his serfs begin to leave his lands to work the lands of Sir Acton (at the time he was known as Farmer Acton). This was a risk to the power of Zuckerberg's earldom, since an earl without serfs to tend to the data fields has no harvest to interest others. In the end he offered Sir Acton a knightship and such enormous wealth that Farmer Acton could not refuse. It's said he now lives in that vast castle alone, is rarely seen, and rarely speaks. The serfs that were in agreement with him now belong to Earl Zuckerberg as they had before, their deal was broken, and once again they tend to our earl's data harvest."
+"He was too successful. Earl Zuckerberg saw many of his serfs begin to leave his lands to work the lands of Sir Acton (at the time he was known as Farmer Acton). This was a risk to the power of Zuckerberg's earldom, since an earl without serfs to tend to the data fields has no harvest to interest others. In the end he offered Sir Acton a knightship and such enormous wealth that he could not refuse. It's said he now lives in that vast castle alone, is rarely seen, and rarely speaks. The serfs that were in agreement with him now belong to Earl Zuckerberg as they had before, their deal was broken, and once again they tend to our earl's data harvest."
 
 "Are there no others?"
 
