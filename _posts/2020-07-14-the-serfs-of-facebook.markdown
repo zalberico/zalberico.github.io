@@ -115,7 +115,7 @@ Philip was quiet for a moment. He pointed across a vast vista to a large castle 
 
 "Sir Acton was just the most noble, and his fall the most tragic. Others like Sir Chris Coyne of the former Earldom of Keybase promised their serfs protection and then cruelly sold them to the Earldom of Zoom, which is closely tied to the Eastern Kingdom, a hostile land ruled by a tyrant king where the earls are weak and only serve to do the king's bidding. There the serfs are forced to grow only what the king has allowed and serfs that refuse are dealt with swiftly and harshly. While in our kingdom farmers can choose to try to strike out on their own (though most choose not to), in the Earldoms of Zoom or TikTok, nothing can happen without the blessing of their king."
 
-Jonathan was looking around while he was thinking. He noticed a small group outside the castle walls using catapults and trebuchets to hurl stones in what looked like an attempted siege. The stones looked impressive to Jonathan, but they shattered harmlessly against the castle's sturdy walls. They held colorful flags and banners bearing the names, "Vox," "NYT,", "Vice", and others, and shouted at anyone that came near.
+Jonathan was looking around while he was thinking. He noticed a small group outside the castle walls using catapults and trebuchets to hurl stones in what looked like an attempted siege. The stones looked impressive to Jonathan, but they shattered harmlessly against the castle's sturdy walls. They held colorful flags and banners bearing the names, "Vox," "NYT," "Vice," and others, and shouted at anyone that came near.
 
 Jonathan pointed at the small group. "Are those people trying to make things better for the serfs?"
 
