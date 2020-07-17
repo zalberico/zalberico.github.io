@@ -127,7 +127,7 @@ At that moment Jonathan saw the fallen nobility lay down their arms and walk a f
 
 "They do so bitterly. The merchants they used to sell pronouncements to now buy from our earls instead, so the old guard must tend the lands of our new lords if they wish to exist at all. They lay a futile siege against the castle and attempt to rally serfs to their cause because the controversy drives their own engagement, but they are largely not effective. Now that the serfs have their own land to work alongside the old earls and can farm with other serfs, they realize that many of the old earls didn't know as much as they pretended to. Today all serfs can farm and while many farm nonsense, some grow blogs more beautiful than the old earls ever did. It is these serfs we must seek to protect. I believe we can also help the few respectable nobles of the old guard that have not yet left or been driven out."
 
-Philip turned to Jonathan and said, "That's why I've brought you here Jonathan. I think you were brought to us to help the serfs of our kingdom. As Monks we serve a greater purpose."
+Philip turned to Jonathan and said, "That's why I've brought you here Jonathan. I think you were brought to us to help the serfs of our kingdom. As monks we serve a greater purpose."
 
 Jonathan looked back at Philip. "God?" he asked.
 
