@@ -67,7 +67,7 @@ Jonathan thought about this for a while.
 
 Philip pointed to one of the nearby plots. Jonathan watched some of the growing tweets. One was particularly beautiful, brightly colored, pleasant and happy. It shone briefly and then withered and died. The next row over, he saw an angry-looking thorny retweet with comment.
 
-The knights ran over to it the retweet filled with excitement. "This one is perfect," they exclaimed, and grabbed clippings of it and began to spread it to all of the nearby data farms.
+The knights ran over to the retweet filled with excitement. "This one is perfect," they exclaimed, and grabbed clippings of it and began to spread it to all of the nearby data farms.
 
 Jonathan looked at Philip, confused, and asked, "Why are they doing this?"
 
