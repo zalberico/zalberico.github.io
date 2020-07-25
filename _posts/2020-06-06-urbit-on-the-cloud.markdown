@@ -96,6 +96,10 @@ Continuing to follow the DO docs we're going to configure the ufw firewall.
    ```
    $ sudo ufw allow OpenSSH
    ```
+ - This command will allow UDP connections on a port that we'll later tell Urbit to use for Ames (the Urbit to Urbit communication protocol)  
+   ```
+   $ sudo ufw allow 32123/udp
+   ```
  - Next we'll turn on the firewall.
    ```
    $ sudo ufw enable
@@ -209,12 +213,12 @@ Finally we're ready to install Urbit on your very own server. This part is actua
    $ tar -zcvf <ship_dir_name>.tar.gz <ship_dir_name>
    $ scp <ship_dir_name>.tar.gz  your_user@your_domain:/home/your_user/urbit-v0.10.7-linux64
    ```
- - Back on your server let's untar your ship and start it up:
+ - Back on your server let's untar your ship and start it up with the Ames port we allowed through the firewall:
    ```
    $ ssh your_user@your_domain
    $ cd urbit-v0.10.7-linux64
    $ tar -zxvf <ship_dir_name>.tar.gz
-   $ ./urbit <ship_dir_name>
+   $ ./urbit -p 32123 <ship_dir_name>
    ```
  - Your ship should now be sailing on the digital ocean. Check `https://your_domain`, if everything is working properly you should see a login page.
  - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
