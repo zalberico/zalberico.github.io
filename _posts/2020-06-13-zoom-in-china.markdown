@@ -20,8 +20,6 @@ What I'm arguing against is more about the people who know better, or are doing 
 
 They structure something like this in their mind for the purpose of being able to hold these contradictory opinions that enable them to do something they think is wrong.
 
-That's mostly what I'm fighting against.
-
 It's one thing to argue that censorship of citizens is a good idea - I strongly disagree, but at least that's a genuine position that can be argued against. Positions that allow someone to support doing something that directly conflicts with their values end up being mostly rationalized nonsense.
 
 Evil triumphs when good people do nothing, but it also triumphs when good people do evil things while telling themselves it's okay.
