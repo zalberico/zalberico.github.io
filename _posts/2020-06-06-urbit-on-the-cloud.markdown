@@ -214,7 +214,7 @@ Finally we're ready to install Urbit on your very own server. This part is actua
    $ ssh your_user@your_domain
    $ cd urbit
    $ tar -zxvf <ship_dir_name>.tar.gz
-   $ ./urbit-v0.10.8-linux64.tgz/urbit -p 32123 <ship_dir_name>
+   $ ./urbit-v0.10.8-linux64/urbit -p 32123 <ship_dir_name>
    ```
  - Your ship should now be sailing on the digital ocean. Check `https://your_domain`, if everything is working properly you should see a login page.
  - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
@@ -225,9 +225,9 @@ Finally, to leave your Urbit running after you disconnect we can leave it in a S
    ```
    $ screen -S urbit
    ```
- - This will start a screen session, we can now start up the Urbit ship in this session:
+ - This will start a screen session, we can now start up the Urbit ship in this session from your `urbit` directory:
    ```
-   $ ./urbit -p 32123 <ship_dir_name>
+   $ ./urbit-v0.10.8-linux64/urbit -p 32123 <ship_dir_name>
    ```
  - Then we can disconnect from the screen session and leave the ship running with `control-a d`
  - To get back into the screen sesssion:
