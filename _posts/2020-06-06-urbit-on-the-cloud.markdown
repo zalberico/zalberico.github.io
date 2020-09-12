@@ -230,7 +230,7 @@ Finally, to leave your Urbit running after you disconnect we can leave it in a S
    $ ./urbit-v0.10.8-linux64/urbit -p 32123 <ship_dir_name>
    ```
  - Then we can disconnect from the screen session and leave the ship running with `control-a d`
- - To get back into the screen sesssion:
+ - To get back into the screen session:
    ```
    $ screen -r
    ```
