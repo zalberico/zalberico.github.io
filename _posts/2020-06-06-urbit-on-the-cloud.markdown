@@ -176,7 +176,7 @@ Now we're going to configure Nginx so it serves up your Urbit traffic securely.
 Now that we've got the Nginx reverse proxy installed we're going to get a Let's Encrypt SSL cert for it and configure it to automatically renew.
  - First we're going to install the cerbot package:
  ```
- $ sudo apt install python-certbot-nginx
+ $ sudo apt install python3-certbot-nginx
  ```
  - Next we're going to request a cert from certbot:
  ```
