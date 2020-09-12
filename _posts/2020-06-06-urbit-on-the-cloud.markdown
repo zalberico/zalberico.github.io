@@ -24,12 +24,9 @@ This guide assumes you're running macOS or linux on your local machine.
 #### Create a Digital Ocean droplet
  - Create an account on [Digital Ocean][Digital Ocean].
  - Create a droplet with the following settings:
- - **Image**: Ubuntu 18.04 x64
- - **Plan**: Standard
- - **Size**: 
-   - **Minimum**: $10 (2GB/1CPU) 
-   - **Recommended**: $15 (3GB/1CPU) 
-   - **Bonus**: $20 (4GB/2CPU)
+ - **Image**: Ubuntu 20.04 x64
+ - **Plan**: Basic
+ - **Size**: $20 (4GB/2CPU)
  - **Add block storage**: Skip
  - **Datacenter Region**: Choose the region closest to you.
  - **VPC Network**: No VPC
@@ -50,16 +47,18 @@ There are a lot of domain name registrars you can use, this guide suggests [gand
 Once you've registered your domain you'll need to configure it to use Digital Ocean for DNS. The following steps are done on the Gandi website.
  - Click Domain on the left panel
  - Click the domain you're going to use for Urbit
- - Click "Gandi's LiveDNS nameservers" under name servers on the overview page
+ - Click "Gandi's LiveDNS" under Nameservers in the Domain configuration section of the overview page
  - Click Change
- - Remove Gandi servers and add the Digital Ocean ones instead: 
+ - Click External
+ - Add the Digital Ocean nameservers: 
    - `ns1.digitalocean.com`
    - `ns2.digitalocean.com`
    - `ns3.digitalocean.com`
  - Save the change.
- - It can take some time for this change to propagate, but I found it to be pretty quick (a few minutes).
+ - It can take 12-24 hours for this change to propagate.
  - Now that you've updated the DNS records you can add the domain to your droplet.
- - Back on the DO site, click Networking from the left panel and then enter the domain you registered to have it set for your project.
+ - Back on the DO site, click Networking from the left panel and then enter the domain you registered.
+ - Click on that domain and add an A record that directs to the IP of your droplet (found on your droplet's page).
 
 #### Creating your non-root user
 With our domain in place we're now ready to actually log into the box and start to configure the server itself.
@@ -148,7 +147,7 @@ Now we're going to configure Nginx so it serves up your Urbit traffic securely.
    ```
    $ sudo vim your_domain
    ```
- - Add the following config (putting your domain in the **your_domain** location):
+ - Add the following config (putting your domain in the **your_domain** location, **your_domain** should be of the form `example.com` without www or https.):
    ```
    server {
     server_name your_domain;
@@ -164,7 +163,6 @@ Now we're going to configure Nginx so it serves up your Urbit traffic securely.
     }
    }
    ```
-   *Note*: **your_domain** should be of the form `example.com` without www or https.
  - Next we're going to create a symlink to enable this in `sites-enabled` for Nginx:
    ```
    $ sudo ln -s /etc/nginx/sites-available/your_domain /etc/nginx/sites-enabled/your_domain
@@ -176,18 +174,15 @@ Now we're going to configure Nginx so it serves up your Urbit traffic securely.
 
 #### Configuring Let's Encrypt secure certificate
 Now that we've got the Nginx reverse proxy installed we're going to get a Let's Encrypt SSL cert for it and configure it to automatically renew.
- - We're going to do this with certbot, first we have to add the up to date repository:
+ - First we're going to install the cerbot package:
  ```
- $ sudo add-apt-repository ppa:certbot/certbot
- ```
- - Next we're going to install the package:
- ```
- $ sudo apt install python-certbot-nginx
+ $ sudo apt install python3-certbot-nginx
  ```
  - Next we're going to request a cert from certbot:
  ```
  $ sudo certbot --nginx -d your_domain
  ```
+ *Note*: If this fails it may be because your DNS change has not propagated which can take 12-24 hours.
  - You'll have to agree to the TOS and then it'll run a test to verify that you control the domain you're requesting a cert for.
  - Certbot will then ask if you want to redirect all traffic to HTTPS. You should select yes for this (option 2).
  - Certbot will automatically update your Nginx config with the settings it needs. It'll also automatically renew before cert expiration.
@@ -204,21 +199,22 @@ Finally we're ready to install Urbit on your very own server. This part is actua
  - Next we're going to install Urbit on the server:
    ```
    $ ssh your_user@your_domain
+   $ mkdir urbit
+   $ cd urbit
    $ curl -O https://bootstrap.urbit.org/urbit-v0.10.8-linux64.tgz
    $ tar xzf urbit-v0.10.8-linux64.tgz
-   $ cd urbit-v0.10.8-linux64
    ```
  - Now we're going to tar up your local ship and send it to your server, from your local machine's urbit directory:
    ```
    $ tar -zcvf <ship_dir_name>.tar.gz <ship_dir_name>
-   $ scp <ship_dir_name>.tar.gz  your_user@your_domain:/home/your_user/urbit-v0.10.8-linux64
+   $ scp <ship_dir_name>.tar.gz  your_user@your_domain:/home/your_user/urbit
    ```
  - Back on your server let's untar your ship and start it up with the Ames port we allowed through the firewall:
    ```
    $ ssh your_user@your_domain
-   $ cd urbit-v0.10.8-linux64
+   $ cd urbit
    $ tar -zxvf <ship_dir_name>.tar.gz
-   $ ./urbit -p 32123 <ship_dir_name>
+   $ ./urbit-v0.10.8-linux64.tgz/urbit -p 32123 <ship_dir_name>
    ```
  - Your ship should now be sailing on the digital ocean. Check `https://your_domain`, if everything is working properly you should see a login page.
  - Log in with the code from `+code` in dojo like normal and you should see all of your applications.
